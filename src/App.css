@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.calc-body{
+  max-width: 400px;
+  margin: auto;
+}
+.result{
+  height: 140px;
+  background-color: rgb(5, 1, 61);
+  width : 100%;
+}
+
+.result p{
+  font-size: 40px;
+  padding: 20px;
+  color: antiquewhite;
+  text-align: right;
+}
+
+.buttons{   
+  display: block;
+  border: none;
+}
+
+.buttons button{
+  border: none;
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+}
+
+.calc_button{
+  background-color:  rgb(190, 206, 250);
+  color: rgb(8, 0, 126);
+}
+.delete{
+  color: rgb(8, 0, 126);
+}
+.equal{
+  background-color: rgb(159, 182, 245);
+  color: rgb(8, 0, 126);
+}
